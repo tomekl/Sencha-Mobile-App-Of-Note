@@ -1,0 +1,114 @@
+/* PAGE */
+
+body{
+	
+	margin: 0px;
+	font-family		 :verdana;
+	font-size		:	16pt;
+	overflow: hidden;
+	height: 100%;
+	
+}
+
+.clearBoth{
+
+	clear : both;
+
+}
+
+.titleBar{
+
+	height : 45px !important;
+	font-family		 :verdana;
+	font-size		:	12pt;
+	border-bottom: 0px !important;
+	padding-top: 1px !important;
+
+}
+
+.titleBar .x-button{
+
+	border: 1px solid #FFFFFF !important;
+  	border-top-color: #FFFFFF !important;
+
+}
+  
+
+.noteWrapperElement{
+
+	border-bottom: 1px solid #E2E2E2;
+	padding : 0px !important;
+
+}
+
+
+
+.noteTitleElement{
+
+	color	:	#5e5e63;
+	font-weight: normal;
+
+	-moz-user-select : none;
+	user-select : none;
+
+	line-height		:	44px;
+	padding-left	:	1em;
+	
+	height : 45px !important;
+}
+
+
+.noteTitleElementTextContainer{
+
+	float: left;
+
+}
+
+.noteButtonContainer{
+
+	float: right;
+	
+}
+
+.noteItemDeleteButton{
+
+	background 		:	url('../images/delete-note-round-button.png') !important;
+	background-size	: 	35 35;
+	border 			: 	0px !important;
+	width 			: 	35px;
+	height 			: 	35px;
+	right			: 	0px;
+	right			: 	-15px;
+    top 			: 	-14px;
+    background-repeat: no-repeat;
+
+}
+
+.x-item-selected .noteTitleElement{
+
+	line-height		:	40px;
+	color 		: white;
+	font-weight	: bold;
+	border-top 	: 1px solid #8b9cc2;
+	background 	: #9eafd0; 
+	background 	: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(0%,#9eafd0), color-stop(42%,#8b9cc2), color-stop(100%,#607093));
+	background 	: -webkit-linear-gradient(top, #7db9e8 0%,#9eafd0 0%,#8b9cc2 42%,#607093 100%);*/
+	
+}
+
+.noteBodyElement{
+
+	display			:	none;
+	padding 		:	1em;
+	background-color: 	#FFFFFF;
+
+}
+
+.x-item-selected .noteBodyElement{
+
+	display : block;
+	color: black;
+	background-color: white;
+	line-height		:	1.5em;
+		
+}
